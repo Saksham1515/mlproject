@@ -1,6 +1,7 @@
 from setuptools import find_packages,setup
+from typing import List
 HYPEN_E_DOT = "-e ."
-def get_requirements(file_path:str) -> List[str] :
+def get_requirements(file_path:str)->List[str]:
     """
     this function will return th list  of requirements
     """
@@ -18,7 +19,7 @@ setup(
 name="mlprojrct",
 version="0.0.1",
 author="Saksham",
-author_email="sakshamcse2021@gmail.com".
+author_email="sakshamcse2021@gmail.com",
 packages=find_packages(),
 install_requires=get_requirements("requirements.txt")
 )
