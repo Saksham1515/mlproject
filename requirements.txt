@@ -9,4 +9,6 @@ catboost
 xgboost
 dill
 mlflow==2.2.2
+dagshub
+# Python==3.9.19
 #-e .
